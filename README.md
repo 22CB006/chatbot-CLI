@@ -1,12 +1,12 @@
-# 🤖 AI Chatbot CLI
+# AI Chatbot CLI
 
 A simple yet powerful command-line chatbot built with Python, TensorFlow, and Natural Language Processing (NLP). This project demonstrates fundamental AI concepts including neural networks, intent classification, and conversational AI.
 
-## 🎯 Project Overview
+## Project Overview
 
 This chatbot uses a neural network to understand user intents and provide appropriate responses. It's trained on custom patterns and can handle various conversational topics like greetings, questions about itself, jokes, and more.
 
-## ✨ Features
+## Features
 
 - **Intent Recognition**: Classifies user input into predefined categories
 - **Neural Network**: Uses TensorFlow/Keras for deep learning
@@ -15,7 +15,7 @@ This chatbot uses a neural network to understand user intents and provide approp
 - **Customizable**: Easy to add new intents and responses via JSON
 - **Well-Commented Code**: Every function and process is thoroughly documented
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **TensorFlow/Keras** - Neural network framework
@@ -23,11 +23,11 @@ This chatbot uses a neural network to understand user intents and provide approp
 - **NumPy** - Numerical computations
 - **JSON** - Intent data storage
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, make sure you have Python 3.7+ installed on your system.
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -86,7 +86,7 @@ Training takes a few minutes. You'll see the accuracy improving with each epoch.
 python chatbot.py
 ```
 
-## 💬 Usage
+## Usage
 
 Once the chatbot is running, simply type your messages and press Enter:
 
@@ -102,7 +102,7 @@ Bye
 Goodbye! Have a great day!
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 chatbot-CLI/
@@ -119,7 +119,7 @@ chatbot-CLI/
     └── classes.pkl         # Intent classes
 ```
 
-## 🧠 How It Works
+## How It Works
 
 ### 1. Training Phase (`train.py`)
 - Loads intents from `intents.json`
@@ -141,7 +141,7 @@ chatbot-CLI/
 - Selects a random response from the matched intent
 - Displays the response
 
-## 🎨 Customizing the Chatbot
+## Customizing the Chatbot
 
 ### Adding New Intents
 
@@ -168,7 +168,7 @@ After modifying `intents.json`, retrain the model:
 python train.py
 ```
 
-## 📊 Model Architecture
+## Model Architecture
 
 ```
 Input Layer (Bag of Words)
@@ -184,7 +184,7 @@ Dropout (50%)
 Output Layer (Softmax)
 ```
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 - Neural network implementation with TensorFlow
@@ -194,7 +194,7 @@ This project demonstrates:
 - Model training and evaluation
 - Python best practices and code documentation
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Add context handling for multi-turn conversations
 - [ ] Implement sentiment analysis
@@ -203,25 +203,25 @@ This project demonstrates:
 - [ ] Add conversation history logging
 - [ ] Implement more advanced NLP techniques (word embeddings, transformers)
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork this project and submit pull requests. Suggestions and improvements are welcome!
 
-## 📝 License
+## License
 
 This project is open source and available for educational purposes.
 
-## 👨‍💻 Author
+## Author
 
 **22CB006**
 - GitHub: [@22CB006](https://github.com/22CB006)
 - Aspiring AI Engineer
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built as part of my journey to become an AI Engineer
 - Thanks to the TensorFlow and NLTK communities for excellent documentation
 
 ---
 
-⭐ If you found this project helpful, please give it a star!
+If you found this project helpful, please give it a star!
