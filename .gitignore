@@ -1,0 +1,20 @@
+# Virtual Environment
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+
+# Model files (if they get large)
+*.h5
+*.pkl

@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you?", "Hi there! What can I do for you?", "Hey! How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care", "See you soon"],
+      "responses": ["Goodbye! Have a great day!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "My pleasure!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["What can you do", "Who are you", "What are you", "What is your purpose"],
+      "responses": ["I'm a simple AI chatbot built with Python and neural networks!", "I'm here to chat with you and answer basic questions!", "I'm an AI assistant created to demonstrate natural language processing."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name", "What should I call you", "What's your name"],
+      "responses": ["I'm a chatbot! You can call me Bot.", "My name is ChatBot!", "I'm your friendly AI assistant!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "I need help", "Can you help me", "What should I do"],
+      "responses": ["Sure! I'm here to help. What do you need?", "I'll do my best to assist you!", "Tell me what you need help with."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you", "What's your age", "When were you created"],
+      "responses": ["I'm just a program, so I don't have an age!", "I was created recently by a developer learning AI!", "Age is just a number for AI!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather", "How's the weather", "Is it raining", "Will it rain today"],
+      "responses": ["I can't check the weather, but I hope it's nice where you are!", "I don't have access to weather data, sorry!", "Try checking a weather app for accurate information!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny", "Do you know any jokes"],
+      "responses": ["Why did the programmer quit? Because they didn't get arrays! 😄", "What's a computer's favorite snack? Microchips!", "Why do programmers prefer dark mode? Because light attracts bugs!"]
+    }
+  ]
+}
